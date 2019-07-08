@@ -1,0 +1,54 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - search_casework
+  - search_ceilings
+  - search_doors
+  - search_entourage
+  - search_furniture
+  - search_generic_models
+  - search_lighting_fixtures
+  - search_materials
+  - search_parking
+  - search_plumbing_fixtures
+  - search_project_info
+  - search_project parameters
+  - search_railings
+  - search_roofs
+  - search_speciality_equipment
+  - search_stairs
+  - search_topography
+  - search_walls
+  - search_windows
+  - search_components
+  - enter_data
+
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
